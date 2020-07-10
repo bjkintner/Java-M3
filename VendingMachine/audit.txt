@@ -1,0 +1,17 @@
+2020-07-09T21:25:40.246994 : Item Cream Soda Purchased.
+2020-07-09T23:44:14.309864 : Item Cream Soda Purchased.
+2020-07-09T23:44:38.679432 : Item Cream Soda Purchased.
+2020-07-09T23:44:58.229558 : Item Cream Soda Purchased.
+2020-07-09T23:45:07.898599 : Item Cream Soda Purchased.
+2020-07-09T23:45:11.052801 : Item Cream Soda Purchased.
+2020-07-09T23:45:13.082604 : Item Cream Soda Purchased.
+2020-07-09T23:45:15.011742 : Item Cream Soda Purchased.
+2020-07-09T23:45:21.930908 : Item Cream Soda Purchased.
+2020-07-09T23:45:28.039884 : Item Cream Soda Purchased.
+2020-07-09T23:45:29.880654 : Item Cream Soda Purchased.
+2020-07-09T23:51:45.541511 : Item Root Beer Purchased.
+2020-07-09T23:53:11.039021 : Item Cream Soda Purchased.
+2020-07-09T23:57:05.156021 : Item Cream Soda Purchased.
+2020-07-10T00:08:54.519097 : Item Root Beer Purchased.
+2020-07-10T00:09:04.439076 : Item Cream Soda Purchased.
+2020-07-10T00:09:12.570022 : Item Dr. Pepper Purchased.

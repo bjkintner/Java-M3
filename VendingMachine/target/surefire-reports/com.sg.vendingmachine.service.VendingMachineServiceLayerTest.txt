@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.vendingmachine.service.VendingMachineServiceLayerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testGetItem()  Time elapsed: 0 sec  <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getItem(VendingMachineDaoFileImpl.java:51)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImpl.getItem(VendingMachineServiceLayerImpl.java:44)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testGetItem(VendingMachineServiceLayerTest.java:103)
+Caused by: java.io.FileNotFoundException: TESTreceipt.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:71)
+	... 21 more
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testPurchaseItem()  Time elapsed: 0 sec  <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getItem(VendingMachineDaoFileImpl.java:51)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImpl.purchaseItem(VendingMachineServiceLayerImpl.java:54)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testPurchaseItem(VendingMachineServiceLayerTest.java:112)
+Caused by: java.io.FileNotFoundException: TESTreceipt.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:71)
+	... 21 more
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testGetAllItems()  Time elapsed: 0 sec  <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getAllItems(VendingMachineDaoFileImpl.java:44)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImpl.getAllItems(VendingMachineServiceLayerImpl.java:38)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testGetAllItems(VendingMachineServiceLayerTest.java:93)
+Caused by: java.io.FileNotFoundException: TESTreceipt.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:71)
+	... 21 more
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testPurchaseItemInsufficientFundsExp()  Time elapsed: 0 sec  <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getItem(VendingMachineDaoFileImpl.java:51)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImpl.purchaseItem(VendingMachineServiceLayerImpl.java:54)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testPurchaseItemInsufficientFundsExp(VendingMachineServiceLayerTest.java:123)
+Caused by: java.io.FileNotFoundException: TESTreceipt.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:71)
+	... 21 more
+
+com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testNoInventoryExp()  Time elapsed: 0 sec  <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getItem(VendingMachineDaoFileImpl.java:51)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerImpl.purchaseItem(VendingMachineServiceLayerImpl.java:54)
+	at com.sg.vendingmachine.service.VendingMachineServiceLayerTest.testNoInventoryExp(VendingMachineServiceLayerTest.java:131)
+Caused by: java.io.FileNotFoundException: TESTreceipt.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:71)
+	... 21 more
+
