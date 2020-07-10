@@ -23,4 +23,4 @@ public interface VendingMachineDao {
     void purchaseItem(String itemNumber)
              throws VendingMachinePersistenceException;
 
-}
+} 

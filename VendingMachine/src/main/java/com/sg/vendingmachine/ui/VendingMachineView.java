@@ -105,4 +105,4 @@ public class VendingMachineView {
         io.print("Your change is " + change);
     }
 
-}
+} 

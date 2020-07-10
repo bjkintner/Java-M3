@@ -35,4 +35,4 @@ public interface UserIO  {
     public void printInt(int num);
     
     public void printBigDecimal(BigDecimal num);
-}
+} 

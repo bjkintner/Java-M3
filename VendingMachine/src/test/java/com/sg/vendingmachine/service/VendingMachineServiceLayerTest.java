@@ -62,7 +62,7 @@ public class VendingMachineServiceLayerTest {
                 new FileOutputStream("TESTreceipt.txt"), "utf-8"))) {
             writer.write("1::Cream Soda::1.50::10"
                     + "\n2::Root Beer::1.25::10"
-                    + "\n3::Dr. Pepper::1.00::10"
+                    + "\n3::Dr. Pepper::1.00::0"
                     + "\n4::Water::0.50::20");
         }
         item.setItemName("Cream Soda");
@@ -135,3 +135,4 @@ public class VendingMachineServiceLayerTest {
     }
     
 }
+ 

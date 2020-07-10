@@ -33,4 +33,4 @@ public class VendingMachineAuditDaoFileImpl implements VendingMachineAuditDao {
        out.println(timestamp.toString() + " : " + entry);
        out.flush();
     }
-}
+} 

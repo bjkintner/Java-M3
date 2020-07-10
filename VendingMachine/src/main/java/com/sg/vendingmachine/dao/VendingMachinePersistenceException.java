@@ -19,4 +19,4 @@ public class VendingMachinePersistenceException extends Exception {
         super(message, cause);
     }
     
-}
+} 

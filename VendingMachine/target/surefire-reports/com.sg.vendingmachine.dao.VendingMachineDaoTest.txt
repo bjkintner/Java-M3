@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.sg.vendingmachine.dao.VendingMachineDaoTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-com.sg.vendingmachine.dao.VendingMachineDaoTest.testListAllItems()  Time elapsed: 0.007 sec  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+com.sg.vendingmachine.dao.VendingMachineDaoTest.testListAllItems()  Time elapsed: 0.009 sec  <<< FAILURE!
 com.sg.vendingmachine.dao.VendingMachinePersistenceException: -_- Could not load receipt data into memory.
 	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.loadReceipt(VendingMachineDaoFileImpl.java:75)
 	at com.sg.vendingmachine.dao.VendingMachineDaoFileImpl.getAllItems(VendingMachineDaoFileImpl.java:44)

@@ -34,4 +34,4 @@ public class App {
                 = new VendingMachineController(myService, myView);
         controller.run();
     }
-}
+} 
